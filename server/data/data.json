@@ -1,0 +1,257 @@
+[
+  {
+    "agent": [
+      {
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@luxuryestates.com",
+        "phone": "(555) 123-4567",
+        "agency": "Luxury Estates International"
+      }
+    ],
+    "name": "Luxury Penthouse in Downtown",
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "details": {
+      "description": "A stunning luxury penthouse located in the heart of downtown, offering breathtaking city views and top-notch amenities.",
+      "price": 2500000,
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "squareFootage": 4500,
+      "yearBuilt": 2020
+    },
+    "address": {
+      "street": "123 Skyline Blvd",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "additionalDetails": {
+      "listingStatus": "For Sale",
+      "propertyType": "Penthouse",
+      "floor": 42,
+      "parkingSpaces": 2,
+      "heating": "Central",
+      "cooling": "Central"
+    },
+    "amenities": [
+      "Rooftop Pool",
+      "Fitness Center",
+      "24/7 Concierge",
+      "Private Elevator",
+      "Wine Cellar",
+      "Smart Home System"
+    ],
+    "features": [
+      "Floor-to-Ceiling Windows",
+      "Hardwood Floors",
+      "Gourmet Kitchen",
+      "Spa-like Bathrooms",
+      "Walk-in Closets",
+      "Balcony"
+    ]
+  },
+  {
+    "agent": [
+      {
+        "name": "Michael Chen",
+        "email": "michael.chen@luxuryestates.com",
+        "phone": "(555) 234-5678",
+        "agency": "Luxury Estates International"
+      }
+    ],
+    "name": "Modern Beachfront Villa",
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde",
+    "details": {
+      "description": "A modern beachfront villa offering direct access to the beach, luxurious interiors, and panoramic ocean views.",
+      "price": 3500000,
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "squareFootage": 6000,
+      "yearBuilt": 2018
+    },
+    "address": {
+      "street": "456 Ocean Drive",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "additionalDetails": {
+      "listingStatus": "For Sale",
+      "propertyType": "Villa",
+      "floor": 1,
+      "parkingSpaces": 4,
+      "heating": "Solar",
+      "cooling": "Central"
+    },
+    "amenities": [
+      "Infinity Pool",
+      "Private Beach Access",
+      "Home Theater",
+      "Wine Cellar",
+      "Gym",
+      "Guest House"
+    ],
+    "features": [
+      "Open Floor Plan",
+      "High Ceilings",
+      "Chef's Kitchen",
+      "Outdoor Kitchen",
+      "Smart Home System",
+      "Landscaped Gardens"
+    ]
+  },
+  {
+    "agent": [
+      {
+        "name": "Emily Rodriguez",
+        "email": "emily.rodriguez@luxuryestates.com",
+        "phone": "(555) 345-6789",
+        "agency": "Luxury Estates International"
+      }
+    ],
+    "name": "Charming Country Estate",
+    "image": "https://images.unsplash.com/photo-1623005329287-0848374575d3",
+    "details": {
+      "description": "A charming country estate set on 10 acres of lush land, featuring a historic main house, barn, and equestrian facilities.",
+      "price": 1800000,
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "squareFootage": 8000,
+      "yearBuilt": 1995
+    },
+    "address": {
+      "street": "789 Country Lane",
+      "city": "Charlottesville",
+      "state": "VA",
+      "zipCode": "22901",
+      "country": "USA"
+    },
+    "additionalDetails": {
+      "listingStatus": "For Sale",
+      "propertyType": "Estate",
+      "floor": 2,
+      "parkingSpaces": 6,
+      "heating": "Geothermal",
+      "cooling": "Central"
+    },
+    "amenities": [
+      "Horse Stables",
+      "Swimming Pool",
+      "Tennis Court",
+      "Pond",
+      "Guest Cottage",
+      "Wine Cellar"
+    ],
+    "features": [
+      "Wrap-around Porch",
+      "Hardwood Floors",
+      "Fireplaces",
+      "Chef's Kitchen",
+      "Library",
+      "Barn"
+    ]
+  },
+  {
+    "agent": [
+      {
+        "name": "David Smith",
+        "email": "david.smith@luxuryestates.com",
+        "phone": "(555) 456-7890",
+        "agency": "Luxury Estates International"
+      }
+    ],
+    "name": "Industrial Chic Loft",
+    "image": "https://images.unsplash.com/photo-1512915922686-57c11dde9b6b",
+    "details": {
+      "description": "Spacious converted warehouse loft featuring exposed brick walls, high ceilings, and modern industrial design elements.",
+      "price": 1250000,
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "squareFootage": 2800,
+      "yearBuilt": 2015
+    },
+    "address": {
+      "street": "789 Arts District Ave",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94103",
+      "country": "USA"
+    },
+    "additionalDetails": {
+      "listingStatus": "For Rent",
+      "propertyType": "Loft",
+      "floor": 3,
+      "parkingSpaces": 1,
+      "heating": "Radiant",
+      "cooling": "Central"
+    },
+    "amenities": [
+      "Open Concept Living",
+      "Artist Studio Space",
+      "Rooftop Deck",
+      "Secure Bike Storage",
+      "Laundry Room",
+      "High-Speed Internet"
+    ],
+    "features": [
+      "Exposed Brick Walls",
+      "Polished Concrete Floors",
+      "Stainless Steel Appliances",
+      "Large Windows",
+      "Smart Home Technology",
+      "Original Architectural Details"
+    ]
+  },
+  {
+    "agent": [
+      {
+        "name": "Sarah Johnson",
+        "email": "sarah.johnson@luxuryestates.com",
+        "phone": "(555) 123-4567",
+        "agency": "Luxury Estates International"
+      }
+    ],
+    "name": "Downtown Luxury Apartment",
+    "image": "https://images.unsplash.com/photo-1608429835892-30be51ea4d6c",
+    "details": {
+      "description": "Sophisticated high-rise apartment offering premium finishes, panoramic city views, and exclusive building amenities.",
+      "price": 895000,
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "squareFootage": 1800,
+      "yearBuilt": 2022
+    },
+    "address": {
+      "street": "456 Urban Way",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "additionalDetails": {
+      "listingStatus": "For Sale",
+      "propertyType": "Apartment",
+      "floor": 24,
+      "parkingSpaces": 1,
+      "heating": "Central",
+      "cooling": "Central"
+    },
+    "amenities": [
+      "24-Hour Doorman",
+      "Resident Lounge",
+      "Fitness Center",
+      "Pet Spa",
+      "Package Room",
+      "Conference Facilities"
+    ],
+    "features": [
+      "Chef's Kitchen",
+      "Floor-to-Ceiling Windows",
+      "Smart Home System",
+      "Walk-in Closets",
+      "Balcony",
+      "Premium Sound System"
+    ]
+  }
+]
