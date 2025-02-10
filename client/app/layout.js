@@ -6,7 +6,7 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const mainFont = Outfit({
-  subset: "latin",
+  subsets: ["latin"],
   display: "swap",
 });
 

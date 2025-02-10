@@ -1,6 +1,8 @@
 "use server";
 import { revalidatePath } from "next/cache";
 
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+
 export const createProperty = async (prevState, formData) => {
   const propertyData = {
     name: formData.get('name'),
@@ -39,7 +41,7 @@ export const createProperty = async (prevState, formData) => {
   };
 
   try {
-    const response = await fetch("http://localhost:5000/api/properties", {
+    const response = await fetch(`${BASE_URL}/api/properties`, {
       method: "POST",
       body: JSON.stringify(propertyData),
       headers: {

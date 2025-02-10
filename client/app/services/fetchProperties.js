@@ -1,10 +1,13 @@
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+
+
 export const fetchProperties = async (option = {}) => {
   try {
     await new Promise((resolve) => setTimeout(resolve, 3000));
     // Dynamic query for flexiblilty and reusablility
     const queryParams = new URLSearchParams(option).toString();
     const response = await fetch(
-      `http://localhost:5000/api/properties?${queryParams}`,
+      `${BASE_URL}/api/properties?${queryParams}`,
     );
 
     if (!response.ok) {
