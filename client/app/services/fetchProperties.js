@@ -8,6 +8,7 @@ export const fetchProperties = async (option = {}) => {
     const queryParams = new URLSearchParams(option).toString();
     const response = await fetch(
       `${BASE_URL}/api/properties?${queryParams}`,
+      { cache: 'no-store' }
     );
 
     if (!response.ok) {
