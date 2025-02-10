@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -70,10 +71,12 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img 
+            <Image
               src="/logo.png" 
               alt="Propera Logo" 
               className="h-12 md:h-16 w-auto"
+              width={100}
+              height={100}
             />
           </div>
 

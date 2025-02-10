@@ -15,7 +15,7 @@ export default function Footer() {
           <span className="text-mainGold text-sm">
             © {new Date().getFullYear()}
           </span>
-          <Image src="/logo.png" alt="propera logo" width={70} height={70} />
+          <Image src="/logo.png" alt="propera logo" width={70} height={70} className="w-auto h-12" />
           <span className="text-mainGold italic text-xs">Built By Salah Shaalaan</span>
         </article>
         <ul className="flex flex-wrap gap-6 items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">

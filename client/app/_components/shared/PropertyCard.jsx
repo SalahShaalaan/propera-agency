@@ -10,6 +10,10 @@ export default function PropertyCard({ property }) {
         width={400}
         height={400}
         className="w-full h-64 object-cover rounded-t-xl"
+        placeholder="blur"
+        blurDataURL="/blur.jpg"
+        loading="lazy"
+
       />
       <div className="p-6 border rounded-b-xl">
         <h2 className="text-xl font-semibold text-mainBlack mb-2 text-nowrap">

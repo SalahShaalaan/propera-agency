@@ -53,6 +53,8 @@ const AboutPage = () => {
             width={500}
             height={500}
             quality={100}
+            loading="lazy"
+
           />
         </motion.div>
       </motion.section>

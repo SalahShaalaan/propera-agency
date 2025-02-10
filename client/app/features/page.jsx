@@ -91,6 +91,10 @@ export default function Features() {
           className="object-cover rounded-xl"
           priority
           quality={100}
+          placeholder="blur"
+          blurDataURL="/blur.jpg"
+          loading="lazy"
+
         />
       </div>
 
@@ -181,6 +185,9 @@ export default function Features() {
             width={500}
             height={500}
             placeholder="blur"
+            blurDataURL="/blur.jpg"
+            loading="lazy"
+
           />
         </div>
 
@@ -193,6 +200,9 @@ export default function Features() {
             width={500}
             height={500}
             placeholder="blur"
+            blurDataURL="/blur.jpg"
+            loading="lazy"
+
           />
         </div>
 
@@ -205,6 +215,9 @@ export default function Features() {
             width={500}
             height={500}
             placeholder="blur"
+            blurDataURL="/blur.jpg"
+            loading="lazy"
+
           />
         </div>
       </div>

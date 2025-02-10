@@ -1,9 +1,9 @@
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
 
+export const dynamic = 'force-dynamic'
 
 export const fetchProperties = async (option = {}) => {
   try {
-    await new Promise((resolve) => setTimeout(resolve, 3000));
     // Dynamic query for flexiblilty and reusablility
     const queryParams = new URLSearchParams(option).toString();
     const response = await fetch(

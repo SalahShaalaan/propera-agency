@@ -3,9 +3,11 @@ import Image from "next/image";
 import { FaPhone, FaEnvelope, FaCheck, FaBed, FaBath,  FaRulerCombined, FaCalendar, FaBuilding, FaMapMarkerAlt } from 'react-icons/fa';
 
 export default async function Page({ params }) {
-  if (!params?.id) return <div className="p-8 text-red-500">Invalid property ID</div>;
+  const {id} = await params;
+
+  if (!id) return <div className="p-8 text-red-500">Invalid property ID</div>;
   
-  const property = await getProperty(params.id);
+  const property = await getProperty(id);
   
   if (!property?.details?.price) {
     return <div className="p-8 text-red-500">Property not found</div>;
@@ -48,7 +50,9 @@ export default async function Page({ params }) {
                 className="w-full h-full object-cover"
                 width={900}
                 height={900}
-                
+                placeholder="blur"
+                blurDataURL="/blur.jpg"
+                loading="lazy"
               />
               <div className="absolute bottom-4 left-4 bg-black/50 text-white px-4 py-2 rounded-full">
                 {property.images?.length || 1} Photos
